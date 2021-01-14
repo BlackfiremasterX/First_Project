@@ -1,6 +1,6 @@
 fun main()
 {
-    var a = 1000
-    var b = 1
+    var a = readLine()!!.toInt()
+    var b = readLine()!!.toInt()
     print(a+b)
 }
